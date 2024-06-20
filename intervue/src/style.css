@@ -1,0 +1,121 @@
+
+.assignmentCard {
+    width: 304px;
+    border-radius: 14px;
+    background: #fafafa;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.skill-icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #000;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.assignmentCard .header .text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 150px;
+}
+.assignmentCard .header {
+    width: 100%;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 26px 24px 19px;
+    display: flex;
+    gap: 12px;
+    position: relative;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.assignmentCard {
+    width: 304px;
+    border-radius: 14px;
+    background: #fafafa;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:1350px){
+    .assignmentLists{
+        justify-content: space-around;
+    }
+
+}
+.assignmentLists {
+    display: flex;
+    gap: 46px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+a, hr {
+    color: inherit;
+}
+body {
+    line-height: inherit;
+}
+body, html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.assignmentCard .skillTagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 0 20px 27px;
+}
+.assignmentCard .skillTag {
+    border-radius: 19px;
+    background: #c8e7fd;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+.assignmentCard .moreInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 0 20px 28px;
+}
+.assignmentCard .moreInfoWrapper .moreInfo.bold {
+    font-weight: 700;
+}
+.assignmentCard .moreInfoWrapper .moreInfo {
+    font-size: 14px;
+    font-weight: 400;
+}
+.RightHeader{
+    display: flex;
+    gap:80px;
+}
